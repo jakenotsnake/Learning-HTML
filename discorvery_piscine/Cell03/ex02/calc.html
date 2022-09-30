@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calc.css" />
+    <script>
+    function cal()
+    {
+        var f = document.getElementById("first").value;
+        var m = document.getElementById("mat").value;
+        var s = document.getElementById("second").value;
+        var a;
+        if (m == '+') { a = parseInt(f) + parseInt(s)}
+        if (m == '-') { a = f - s}
+        if (m == '*') { a = f * s}
+        if (m == '%') { a = f % s}
+        alert(f + m + s + '=' + a );
+        return true;
+    }
+
+    </script>
+</head>
+<body>
+    <h1>Calculator Bitch</h1>
+    <form accept-charset="1234567890" target="_self">
+        <label for="first">First Digits</label>
+        <input type="text" name="first" id="first">
+        <label for="mat">Opperator</label>
+        <select name="mat" id="mat">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="%">%</option>
+        </select>
+        <label for="second">Second Digits</label>
+        <input type="text" name="second" id="second">
+        <label for="submit">Calculate</label>
+        <input type="submit" value="submit" id="submit" onclick="return cal()">
+    </form>
+
+</body>
+</html>

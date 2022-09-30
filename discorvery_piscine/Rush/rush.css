@@ -1,0 +1,108 @@
+.home{
+    background-image: url('main.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    top: 10%;
+    background-size: cover;
+    margin: 0;
+}
+
+.me{
+    background-image: url('me.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    top: 10%;
+    background-size: cover;
+    margin: 0;
+}
+
+.hist{
+    background-image: url('hist.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    top: 10%;
+    background-size: cover;
+    margin: 0;
+}
+
+.edu{
+    background-image: url('edu.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    top: 10%;
+    background-size: cover;
+    margin: 0;
+}
+
+.nav{
+    background-color: aliceblue;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition-duration: 0.63s;
+}
+
+.navt{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid lightgray;
+    text-align: center;
+    table-layout: fixed;
+    z-index: 99;
+    text-align: center;
+
+}
+
+.navcol{
+    background-color: aliceblue;
+    height: 10%;
+    width: 100%/4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bod{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.photo{
+    position: relative;
+    top: 0px;
+    height: 20px;
+    text-align: center;
+    transition: .05s;
+}
+
+.arr:hover {
+    font-size: 250%;
+}
+
+.arr{
+    font-size: 200%;
+    size: 10%;
+    padding: 0;
+    transition: 0.2s;
+}
+
+.photo:hover {
+    height: 25px;
+}
