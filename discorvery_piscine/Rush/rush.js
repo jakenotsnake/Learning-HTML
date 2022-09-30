@@ -20,10 +20,10 @@ function navdown() {
     }
 
     function scrollo(){
-        if (cur == 4)
+        if (cur == 3)
             return;
-        navdown();
-        cur++;
+         cur++;
+         navdown();
         const pages = ['home', 'me', 'hist', 'edu'];
         var p = document.getElementById(pages[cur]);
         setTimeout(() => {
@@ -45,6 +45,7 @@ function navdown() {
 
     function scrollpage(p){
         p.scrollIntoView({
+            block: 'end',
             behavior: "smooth",
         });
     }
