@@ -1,5 +1,5 @@
 .home{
-    background-image: url('main.jpeg');
+    background-image: url('3.jpeg');
     background-repeat: no-repeat;
     height: 100%;
     background-attachment: fixed;
@@ -16,10 +16,12 @@
     top: 10%;
     background-size: cover;
     margin: 0;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .hist{
-    background-image: url('hist.jpeg');
+    background-color: azure;
     background-repeat: no-repeat;
     height: 100%;
     background-attachment: fixed;
@@ -106,4 +108,55 @@
 
 .photo:hover {
     height: 25px;
+}
+
+.mepara1{
+    top: 15%;
+    left: 10%;
+    position: relative;
+    width: 80%;
+}
+
+.mepara2{
+    top: 20%;
+    left: 10%;
+    position: relative;
+    width: 80%;
+    height: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.mepara2img{
+    position: relative;
+    width: auto;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+
+.mepara3{
+    top: 20%;
+    width: 80%;
+    left: 10%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mepara3img{
+    position: relative;
+    width: auto;
+    height: 100%;
+ 
+    border-radius: 10%;
+}
+
+.experience{
+    top: 20%;
+    width:30%;
+    left:10%;
+    position: relative;
+    height: 70%;
 }
