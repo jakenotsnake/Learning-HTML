@@ -9,7 +9,7 @@ function navdown() {
     b.style.height = '40%';
    setTimeout(() => {
        navup();
-   }, 630);
+   }, 670);
     }
     
 
@@ -50,3 +50,4 @@ function navdown() {
         });
     }
 
+``
