@@ -8,6 +8,17 @@
     margin: 0;
 }
 
+.row1 td{
+    font-size: 0.9vw;
+    transition: 0.5s;
+    color: whitesmoke;
+}
+
+.row1 td:hover{
+    font-size: 1.5vw !important;
+    transition: 0.5s;
+}
+
 .me{
     background-color: whitesmoke;
     background-repeat: no-repeat;
@@ -29,6 +40,7 @@
     background-size: cover;
     margin: 0;
 }
+
 
 .edu{
     background-color:whitesmoke;
@@ -54,7 +66,7 @@
 }
 
 .navt{
-    background-color: #90AFC5;
+    background-color:black;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -91,24 +103,23 @@
 .photo{
     position: relative;
     top: 0px;
-    height: 20px;
+    height: 30px;
     text-align: center;
     transition: .2s;
+    filter: invert(1);
 }
 
-.arr:hover {
-    font-size: 250%;
+.arr td:hover {
+    height: 40px;
 }
 
 .arr{
-    font-size: 200%;
-    size: 10%;
-    padding: 0;
-    transition: 0.2s;
+    height: 10%;
+    transition: 0.5s;
 }
 
 .photo:hover {
-    height: 25px;
+    height: 40px;
 }
 
 .mepara1{
@@ -116,6 +127,7 @@
     left: 10%;
     position: relative;
     width: 80%;
+    font-size: 0.7vw;
 }
 
 .mepara2{
@@ -126,12 +138,13 @@
     height: 28%;
     display: flex;
     align-items: center;
+    font-size: 0.7vw;
 }
 
 .mepara2img{
     position: relative;
-    width: auto;
-    height: 100%;
+    max-width: 21%;
+    height: auto;
     border: 1px solid gray;
     border-radius: 10%;
 }
@@ -144,12 +157,13 @@
     position: relative;
     display: flex;
     align-items: center;
+    font-size: 0.7vw;
 }
 
 .mepara3img{
     position: relative;
-    width: auto;
-    height: 100%;
+    max-width: 21%;
+    height: auto;
  
     border-radius: 10%;
 }
@@ -161,6 +175,7 @@
     position: relative;
     height: 35%;
     float: left;
+    font-size: 0.7vw;
 }
 
 
@@ -172,6 +187,7 @@
     height: 50%;
     float: right;
     clear: right;
+    font-size: 0.7vw;
 }
 
 .Skills1{
@@ -181,22 +197,23 @@
     position: relative;
     height: 20%;
     float: right;
+    font-size: 0.7vw;
 }
 
 .experience1{
     width:30%;
     top: 7%;
-    left:10%;
+    left:5%;
     position: relative;
     height: 70%;
     float: left;
     clear: right;
+    font-size: 0.7vw;
 }
 
 .email{
     position: relative;
     line-height: 1.5;
-    font-size: 15;
     height: 70%;
 }
 
@@ -225,9 +242,10 @@
     height: 80%;
     float: right;
     top: 20%;
+    right: 5%;
     position: relative;
     text-align: center;
-    line-height: 4;
+    font-size: 1.3vw;
 }
 
 .cont1{
@@ -235,21 +253,23 @@
     height: 80%;
     top: 20%;
     position: relative;
-
+    left: 5%;
     float: left;
+    font-size: 1vw;
 }
 
 .socials{
-    height: 30%;
+    height: 35%;
     width: auto;
+    flex-wrap: wrap;
 }
 
 .sociallogo{
     position: relative;
-    top: 0px;
     height: 50%;
     text-align: center;
     transition: .5s;
+    align-items: center;
 }
 
 .sociallogo:hover {
@@ -265,4 +285,71 @@
 .linkcont:hover{
     font-size: 28;
    
+}
+
+.linkcont1{
+    color: black;
+    font-size: 1em; 
+    transition: 0.5s;
+}
+
+.linkcont1:hover{
+    font-size: 1.2em;
+   
+}
+
+figcaption{
+    font-size: 0.9vw;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+figure {
+  display: block;
+  float: right;
+  width: 21%;
+  margin: 2%;
+}
+
+.or{
+    text-align: center;
+    top:15%;
+    position: relative;
+    font-size: 1.5vw;
+}
+
+textarea{
+    max-width: 95%;
+}
+
+input[type="submit"]{
+    background-color: black;
+    height: 8%;
+    width: 20%;
+    color: whitesmoke;
+    font-size: 1.2vw;
+    border: none;
+}
+
+.myname{
+    height: 20%;
+    width: 35%;
+    background-color: black;
+    background-attachment: fixed;
+    top: 70%;
+    left: 30%;
+    position: relative;
+    color: whitesmoke;
+}
+
+.jake{
+    height: 80%;
+    top:25%;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: 'Times New Roman', Times, serif;
 }

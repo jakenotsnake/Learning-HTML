@@ -14,22 +14,29 @@
             <tr class="row1">
                 <td>Jake Tanner</td>
                 <td></td>
-                <td class="arr" onclick="scrollup()">⇦</td>
-                <td rules="cols" onclick="scrollo()">Home</td>
-                <td rules="cols" onclick="scrollo()">About Me</td>
-                <td rules="cols" onclick="scrollo()">Employment History</td>
-                <td rules="cols" onclick="scrollo()">Education</td>
-                <td class="arr" onclick="scrollo()">⇨</td>
+                <td class="arr" onclick="scrollup()"><img class="photo" src="left.png"></td>
+                <td style="font-size: 1.4vw;" rules="cols" onclick="scrolto(0)" id="11">Home</td>
+                <td rules="cols" onclick="scrolto(1)" id="22">About Me</td>
+                <td rules="cols" onclick="scrolto(2)" id="33">Experience</td>
+                <td rules="cols" onclick="scrolto(3)" id="44">Contact Me</td>
+                <td class="arr" onclick="scrollo()"><img class="photo" src="right.png"></td>
                 <td></td>
                 <td class="photo">
-                    <a href="https://www.facebook.com/jake.tanner.3367/"><img src="face.png"  class="photo" /></a>
-                    <a href="https://www.linkedin.com/in/jacob-jake-tanner/"><img src="link.png"  class="photo"/></a>
-                    <a href="https://www.instagram.com/jake.not.snake/?hl=en"><img src="inst.png"  class="photo"></a>   
+                    <a style="filter: invert(1)" href="https://www.facebook.com/jake.tanner.3367/"><img class="photo" src="face.png"></a>
+                    <a style="filter: invert(1)" href="https://www.linkedin.com/in/jacob-jake-tanner/"><img src="link.png"  class="photo"/></a>
+                    <a style="filter: invert(1)" href="https://www.instagram.com/jake.not.snake/?hl=en"><img src="inst.png"  class="photo"></a>
+                    <a style="filter: invert(1)" href="https://github.com/jakenotsnake"><img class="photo" src="git.png"></a>   
                 </td>
             </tr>
         </table>
     </div>
     <div class="home" id="home">
+        <div class="myname">
+            <div class="jake">
+            <h1>Jake Tanner<br></h1>
+            <p>Software Developer</p>
+            </div>
+        </div>
     </div>
     <div class="me" id="me">
     <div class="mepara1">
@@ -153,20 +160,20 @@
                         <li>
                             <div>
                                 <h1>
-                                <a style="color:black" href="https://github.com/jakenotsnake/Push_swap">Push_Swap</a>
+                                <a class="linkcont1" href="https://github.com/jakenotsnake/Push_swap">Push_Swap</a>
                                 </h1>
                                 <p><br>This project introduced me to optimized data sorting, the aim is to take a stack as an input, and using only rotate commands, push commands and one other stack, organize it in the most efficient way possible. I really enjoyed this assignment as it I love to take code I’ve written and tinker with it in ways to make it better. I’m particularly proud of this assignment as I made a point of not using any external resources or guides when making this and not settling until it got the maximum scores 42 gives for this assignment (100numbers < 700moves, 500numbers < 5500moves) and therefore I think you would be hard pressed to find a similar sorting code from other students.<br><br></p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <h1><a href="https://github.com/jakenotsnake/pipex">Pipex</a></h1>
+                                <h1><a class="linkcont1" href="https://github.com/jakenotsnake/pipex">Pipex</a></h1>
                                 <p><br>This assignment is to introduce students to pipes and redirection, the aim is to create a program that imitates the shell pipe ‘|’ command. I found the concept of this assignment particularly confusing as prior to this I had very little experience with redirection, however with time and research I managed to get a good grasp on how pipes work and how piping outputs into other programs can be useful.<br><br></p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <h1>Fractol</h1>
+                                <h1><a class="linkcont1" href="https://github.com/jakenotsnake/fractol">Fractol</a></h1>
                                 <p><br>This was a pretty fun assignment to do, the goal was to create a program that displays a fractal on a window that can be adjusted and changed based on key and mouse inputs. This was fun to learn as it was my first introduction into using windows and using hooks to manipulate them and the images on the screen. I really enjoyed learning about how colors and bit manipulation work within programs and had a lot of fun coming up with creative ways to change the colors.<br><br></p>
                             </div>
                         </li>
@@ -184,7 +191,7 @@
                     <li>
                         <div>
                             <h1>What I want to do next</h1>
-                            <p><br>I’m very eager to break into the programming workforce and put my knowledge to the test, while I’m excited at the prospect of near any role that utilizes what I have been learning, I am particularly interested in working as a junior web developer, junior software developer<br><br></p>
+                            <p><br>I’m very excited by the idea of working in a software development team and putting my skills to practical use, ideally I would like to work with a team that focuses around the UI of a program or work in implementing, managing or testing new or updated software. I am also interested in working front or back end web development as I have thoroughly enjoyed this project and would love the chance to further my abilities.<br><br></p>
                         </div>
                     </li>
             </ul>        
@@ -192,14 +199,19 @@
     </div>
     </div>
     <div class="edu" id="edu">
+        <div class="or">
+        <h1>OR</h1>
+        </div>
         <div class="cont">
             <h1>Contact Me</h1>
-            <p style="font-size: 24;">Email:<a class="linkcont" href="mailto: jake.j.tanner@gmail.com"> Jake.j.tanner@gmail.com</a></p>
-            <p style="font-size: 24;">Phone:<a class="linkcont" href="tel: 0423362914">0423 362 914</p></a>
+            <p><br><br>Email:<br><a class="linkcont" href="mailto: jake.j.tanner@gmail.com"> Jake.J.Tanner@gmail.com</a></p>
+            <p><br><br>Phone:<br><a class="linkcont" href="tel: 0423362914">0423 362 914</p></a>
             <div class="socials">
-                    <a href="https://www.instagram.com/jake.not.snake/?hl=en"><img src="inst.png"  class="sociallogo"></a>   
-                    <a href="https://www.facebook.com/jake.tanner.3367/"><img src="face.png"  class="sociallogo" /></a>
-                    <a href="https://www.linkedin.com/in/jacob-jake-tanner/"><img src="link.png"  class="sociallogo"/></a>
+                <br><br>
+                   <figure><a href="https://www.instagram.com/jake.not.snake/?hl=en"><img src="inst.png"  class="sociallogo"></a><figcaption>Instagram</figcaption></figure>
+                    <figure><a href="https://www.facebook.com/jake.tanner.3367/"><img src="face.png"  class="sociallogo" /></a><figcaption>Facebook</figcaption></figure>
+                    <figure><a href="https://www.linkedin.com/in/jacob-jake-tanner/"><img src="link.png"  class="sociallogo"/></a><figcaption>Linkedin</figcaption></figure>
+                    <figure><a href="https://github.com/jakenotsnake"><img src="git.png"  class="sociallogo"/></a><figcaption>GitHub</figcaption></figure>
             </div>
         </div>
     
@@ -208,10 +220,10 @@
                     <h1 style="text-align:center">Email Me</h1>
                     <div  class="formo">
                     <form action="mail_handler.php" method="post">
-                           <br><br> First Name:<br> <input type="text" name="first_name" class="textbox"><br><br>
+                           <br> First Name:<br> <input type="text" name="first_name" class="textbox"><br><br>
                             Last Name:<br> <input type="text" name="last_name" class="textbox"><br><br>
                             Email:<br> <input type="text" name="email" class="textbox"><br><br>
-                            Message:<br> <textarea rows="10" name="message" cols="60"></textarea><br><br>
+                            Message:<br> <textarea rows="10" name="message" cols="80"></textarea><br><br>
                             <input type="submit" name="submit" value="Submit">
                             </form>
                             </div>
